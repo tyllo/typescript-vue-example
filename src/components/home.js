@@ -1,12 +1,10 @@
-import * as Vue from 'vue'
-
 const template = `
 <section class='home'>
   <div class='button' @click='test'></div>
 </section>
 `
 
-export const home: Vue.ComponentOptions<Vue> = {
+export const home = {
   name: 'home',
   template,
   data: () => ({
@@ -22,4 +20,5 @@ export const home: Vue.ComponentOptions<Vue> = {
   },
 }
 
-export default home
+export default home;
+
