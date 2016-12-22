@@ -1,0 +1,21 @@
+{
+  "css.validate": true,
+  "scss.validate": true,
+  "stylelint.enable": true,
+  "puglint.enable": true,
+
+  "jsAutolint.enable": true,
+  "jsAutolint.defaultLinters": [
+    "eslint", "tslint"
+  ],
+
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 120],
+
+  "files.eol": "\n",
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true
+  }
+}

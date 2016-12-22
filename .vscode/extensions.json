@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "t-sauer.autolinting-for-javascript",
+    "kisstkondoros.csstriggers",
+    "mrmlnc.vscode-puglint",
+    "shinnn.stylelint"
+  ]
+}

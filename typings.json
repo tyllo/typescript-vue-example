@@ -1,0 +1,9 @@
+{
+  "name": "test-vue",
+  "dependencies": {
+    "vue": "npm:vue",
+    "vue-router": "npm:vue-router",
+    "vuex": "npm:vuex",
+    "vuex/dist/logger": "npm:vuex/dist/logger.d.ts"
+  }
+}
