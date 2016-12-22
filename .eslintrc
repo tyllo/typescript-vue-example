@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true
+  },
+
+  "extends": [
+  ],
+
+  "plugins": [
+    "flowtype-errors",
+    "standard",
+    "standard-flow"
+  ],
+
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  }
+}
