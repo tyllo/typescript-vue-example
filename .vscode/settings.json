@@ -4,9 +4,6 @@
     "eslint"
   ],
 
-  "flow.enabled": true,
-  "flow.pathToFlow": "flow",
-
   "flowide.enabled": true,
   "flowide.pathToFlow": "flow",
   "javascript.validate.enable": false,

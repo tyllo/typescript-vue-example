@@ -19,7 +19,7 @@ export const actions: ActionTree<S, R> = {
   },
 
   decrement({ commit }) {
-    commit(types.DECRENEMT)
+    commit(types.DECREMENT)
   }
 }
 
@@ -27,7 +27,7 @@ export const mutations: MutationTree<S> = {
   [types.INCREMENT](state) {
     state.count++
   },
-  [types.DECRENEMT](state) {
+  [types.DECREMENT](state) {
     state.count--
   },
 }

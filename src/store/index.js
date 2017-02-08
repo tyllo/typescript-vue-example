@@ -9,8 +9,8 @@ Vue.use(Vuex)
 const plugins = [] as Vuex.Plugin<Store.RootState>[]
 
 if (process.ENV !== ENV.production) {
-  const loggetOptions = {} as LoggerOption<Store.RootState>
-  const logger = createLogger(loggetOptions)
+  const loggerOptions = {} as LoggerOption<Store.RootState>
+  const logger = createLogger(loggerOptions)
   plugins.unshift(logger)
 }
 
