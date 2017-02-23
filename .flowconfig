@@ -1,5 +1,5 @@
 [ignore]
-.*/node_modules/.*
+.*node_modules.*
 
 [include]
 
@@ -7,4 +7,3 @@
 flow
 
 [options]
-module.name_mapper='^test/\(.*\)$' -> '<PROJECT_ROOT>/src/test/\1'

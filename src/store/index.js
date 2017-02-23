@@ -1,5 +1,7 @@
-import * as Vue from 'vue'
-import * as Vuex from 'vuex'
+/* @flow */
+
+import Vue from 'vue'
+import Vuex from 'vuex'
 import createLogger, { LoggerOption } from 'vuex/dist/logger'
 import modules from './modules/index'
 import * as rootState from './modules/root-state'
@@ -8,7 +10,7 @@ Vue.use(Vuex)
 
 const plugins = [] as Vuex.Plugin<Store.RootState>[]
 
-if (process.ENV !== ENV.production) {
+if (process.env.NODE_ENV !== 'production') {
   const loggerOptions = {} as LoggerOption<Store.RootState>
   const logger = createLogger(loggerOptions)
   plugins.unshift(logger)

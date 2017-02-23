@@ -1,3 +1,5 @@
+/* @flow */
+
 import * as Vue from 'vue'
 import * as Router from 'vue-router'
 

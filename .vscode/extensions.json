@@ -1,5 +1,6 @@
 {
   "recommendations": [
-    "t-sauer.autolinting-for-javascript"
+    "t-sauer.autolinting-for-javascript",
+    "flowtype.flow-for-vscode"
   ]
 }

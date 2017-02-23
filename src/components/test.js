@@ -12,7 +12,7 @@ export const Test: Vue.Component = {
   data: () => ({}),
   methods: {
     test() {
-      // TODO: $store - does not exist for ts (((
+      // TODO: $store - does not exist for ts :(
       this.$store.commit('DECREMENT')
     }
   },

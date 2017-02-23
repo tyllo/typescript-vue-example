@@ -4,8 +4,8 @@
     "eslint"
   ],
 
-  "flowide.enabled": true,
-  "flowide.pathToFlow": "flow",
+  "flow.enabled": true,
+  "flow.pathToFlow": "flow",
   "javascript.validate.enable": false,
 
   "editor.tabSize": 2,

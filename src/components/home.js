@@ -14,7 +14,7 @@ export const home = {
     test() {
       // TODO: title, $store and $router - does not exist for ts (((
       this.title = ''
-      this.$store.commit('INCRIMENT')
+      this.$store.commit('INCREMENT')
       this.$router.push({ name: 'test' })
     }
   },
